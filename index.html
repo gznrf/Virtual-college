@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>raznieModuli</title>
+</head>
+<body onload="">
+    <div class="content">
+        <div id="container" class="container"></div>
+        <button class="flootButton" onclick="changeFloor(1, 1)">Этаж 1</button>
+        <button class="flootButton" onclick="changeFloor(2, 1)">Этаж 2</button>
+        <button class="flootButton" onclick="changeFloor(4, 1)">Этаж 4</button>
+        <button class="flootButton" onclick="changeFloor(5, 1)">Этаж 5</button>
+        <button onclick="loadNewPhoto()" >назад</button>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>
