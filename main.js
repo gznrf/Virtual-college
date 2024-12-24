@@ -183,6 +183,7 @@ let stencil =  "../фото/стрелки для ходьбы/onFirstPossition.
 let moveForwardColor = "255,0,0"
 let moveBackwardColor = "250,0,0"
 
+
 function main() {
     mouseInit();
     raycasterInit();
@@ -440,7 +441,5 @@ function onPointerMove( event ) {
 function onPointerUp() {
     mouseDown.x = null;
 }
-
-
 
 main()
