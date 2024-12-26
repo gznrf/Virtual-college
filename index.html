@@ -1,22 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <title>Виртуальный колледж МГИМО</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.min.js"></script>
     <link rel="stylesheet" href="./style.css">
-    <title>raznieModuli</title>
 </head>
-<body onload="">
-    <div class="content">
-        <div id="container" class="container"></div>
-        <button class="flootButton" onclick="changeFloor(1, 1)">Этаж 1</button>;
-        <button class="flootButton" onclick="changeFloor(2, 1)">Этаж 2</button>
-        <button class="flootButton" onclick="changeFloor(4, 1)">Этаж 4</button>
-        <button class="flootButton" onclick="changeFloor(5, 1)">Этаж 5</button>
-        <button onclick="loadNewPhoto()" >назад</button>
+<body>
+
+<header>
+    <img class="logo" src="./photos/logos/1200px-MGIMO.svg.png" alt="Логотип колледжа МГИМО">
+    <h1 class="ms-3">Виртуальный колледж МГИМО</h1>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">О колледже</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container main-content">
+    <div class="toggle-buttons">
+        <button class="btn btn-primary mx-2" id="floor1" onclick="changeFloor(1, 1)">Этаж 1</button>
+        <button class="btn btn-primary mx-2" id="floor2" onclick="changeFloor(2, 1)">Этаж 2</button>
+        <button class="btn btn-primary mx-2" id="floor3" onclick="changeFloor(4, 1)">Этаж 4</button>
+        <button class="btn btn-primary mx-2" id="floor4" onclick="changeFloor(5, 1)">Этаж 5</button>
     </div>
-    <script src="./main.js" ></script>
+
+    <div class="photo-container" id="photoContainer"></div> 
+    <script src="./main.js"></script>
+</div>
+
+<footer>
+    <p>&copy; 2024 Виртуальный колледж МГИМО. Все права защищены.</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Политика конфиденциальности</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Условия использования</a></li>
+                <!-- New buttons added below -->
+                <li class="nav-item"><a class="nav-link text-white" href="#">О филиале</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">МГИМО-Вернадского</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">МГИМО-МЕД</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">МГИМО-Ташкент</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Наука</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Спорткомплекс</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Отель</a></li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

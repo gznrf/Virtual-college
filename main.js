@@ -1,157 +1,69 @@
 /*инициалзация обьекта*/
 let firstFloorJson = {
     1:{
-        "mainPhoto":"./фото/первый этаж/firstFloorFirstPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onFirstPossition.png"
-    },
-    2:{
-        "mainPhoto":"./фото/первый этаж/firstFloorSecondPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    3:{
-        "mainPhoto":"./фото/первый этаж/firstFloorThirdPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    4:{
-        "mainPhoto":"./фото/первый этаж/firstFloorFourthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    5:{
-        "mainPhoto":"./фото/первый этаж/firstFloorFifthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    6:{
-        "mainPhoto":"./фото/первый этаж/firstFloorSixthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    7:{
-        "mainPhoto":"./фото/первый этаж/firstFloorSeventhPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    8:{
-        "mainPhoto":"./фото/первый этаж/firstFloorEighthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    9:{
-        "mainPhoto":"./фото/первый этаж/firstFloorNinthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onLastPossition.png"
+        "mainPhoto":"./photos/floors/первый этаж/5.9(1).png",
+        "movePhoto":""
     },
 }
 
 let secondFloorJson = {
     1:{
-        "mainPhoto":"./фото/второй этаж/secondFloorFirstPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onFirstPossition.png"
+        "mainPhoto":"./photos/floors/второй этаж/1/2.1.jpg",
+        "movePhoto":"./photos/floors/второй этаж/1/2.1.png"
     },
     2:{
-        "mainPhoto":"./фото/второй этаж/secondFloorSecondPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/второй этаж/2/2.2.jpg",
+        "movePhoto":"./photos/floors/второй этаж/2/2.2.png"
     },
     3:{
-        "mainPhoto":"./фото/второй этаж/secondFloorThirdPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/второй этаж/3/2.3.jpg",
+        "movePhoto":"./photos/floors/второй этаж/3/2.3.png"
     },
     4:{
-        "mainPhoto":"./фото/второй этаж/secondFloorFourthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    5:{
-        "mainPhoto":"./фото/второй этаж/secondFloorFifthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    6:{
-        "mainPhoto":"./фото/второй этаж/secondFloorSixthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    7:{
-        "mainPhoto":"./фото/второй этаж/secondFloorSeventhPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    8:{
-        "mainPhoto":"./фото/второй этаж/secondFloorEighthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    9:{
-        "mainPhoto":"./фото/второй этаж/secondFloorNinthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onLastPossition.png"
+        "mainPhoto":"./photos/floors/второй этаж/4/2.4.jpg",
+        "movePhoto":"./photos/floors/второй этаж/4/2.4.png"
     },
 }
 
 let fourthFloorJson = {
     1:{
-        "mainPhoto":"./фото/четвертый этаж/4.1.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onFirstPossition.png"
+        "mainPhoto":"./photos/floors/четвертый этаж/2/4.2.jpg",
+        "movePhoto":"./photos/floors/четвертый этаж/2/4.2.png"
     },
     2:{
-        "mainPhoto":"./фото/четвертый этаж/4.2.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/четвертый этаж/3/4.3.jpg",
+        "movePhoto":"./photos/floors/четвертый этаж/3/4.3.png"
     },
     3:{
-        "mainPhoto":"./фото/четвертый этаж/4.3.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/четвертый этаж/4/4.4.jpg",
+        "movePhoto":"./photos/floors/четвертый этаж/4/4.4.png"
     },
     4:{
-        "mainPhoto":"./фото/четвертый этаж/4.4.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/четвертый этаж/5/4.5.jpg",
+        "movePhoto":"./photos/floors/четвертый этаж/5/4.5.png"
     },
     5:{
-        "mainPhoto":"./фото/четвертый этаж/4.5.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/четвертый этаж/6/4.6.jpg",
+        "movePhoto":"./photos/floors/четвертый этаж/6/4.6.png"
     },
     6:{
-        "mainPhoto":"./фото/четвертый этаж/4.6.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    7:{
-        "mainPhoto":"./фото/четвертый этаж/4.7.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    8:{
-        "mainPhoto":"./фото/четвертый этаж/4.8.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    9:{
-        "mainPhoto":"./фото/четвертый этаж/4.9.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onLastPossition.png"
+        "mainPhoto":"./photos/floors/четвертый этаж/8/4.8.jpg",
+        "movePhoto":"./photos/floors/четвертый этаж/8/4.8.png"
     },
 }
 
 let fifthFloorJson = {
     1:{
-        "mainPhoto":"./фото/пятый этаж/fifthFloorFirstPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onFirstPossition.png"
+        "mainPhoto":"./photos/floors/пятый этаж/7/5.7.jpg",
+        "movePhoto":"./photos/floors/пятый этаж/7/5.7.png"
     },
     2:{
-        "mainPhoto":"./фото/пятый этаж/fifthFloorSecondPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
+        "mainPhoto":"./photos/floors/пятый этаж/8/5.8.jpg",
+        "movePhoto":"./photos/floors/пятый этаж/8/5.8.png"
     },
     3:{
-        "mainPhoto":"./фото/пятый этаж/fifthFloorThirdPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    4:{
-        "mainPhoto":"./фото/пятый этаж/fifthFloorFourthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    5:{
-        "mainPhoto":"./фото/пятый этаж/fifthFloorFifthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    6:{
-        "mainPhoto":"./фото/пятый этаж/fifthFloorSixthPositionPhoto.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    7:{
-        "mainPhoto":"./фото/пятый этаж/5.7.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    8:{
-        "mainPhoto":"./фото/пятый этаж/5.8.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/defaultArrows.png"
-    },
-    9:{
-        "mainPhoto":"./фото/пятый этаж/5.9.jpg",
-        "movePhoto":"./фото/стрелки для ходьбы/onLastPossition.png"
+        "mainPhoto":"./photos/floors/пятый этаж/9/5.9.jpg",
+        "movePhoto":"./photos/floors/пятый этаж/9/5.9.png"
     },
 }
 
@@ -172,13 +84,13 @@ let e, imgData, canvas, ctx;
 let uv, lon = 0, lat = 0;
 let onMousePositionColor;
 let mouseDown = {};
-let container = document.getElementById("container");
+let container = document.getElementById("photoContainer");
 
-var containerWidth = $(".conteiner").width();
-var containerHeight = $(".conteiner").height();
+var containerWidth = $(".photo-container").width();
+var containerHeight = $(".photo-container").height();
 
-let texture =  "../фото/первый этаж/firstFloorFirstPositionPhoto.jpg"
-let stencil =  "../фото/стрелки для ходьбы/onFirstPossition.png"
+let texture =  "./photos/floors/первый этаж/5.9(1).png"
+let stencil =  "../photos/floors/стрелки для ходьбы/onFirstPossition.png"
 
 let moveForwardColor = "255,0,0"
 let moveBackwardColor = "250,0,0"
@@ -313,8 +225,8 @@ function addMeshOnScene(){
 function rendererInit(){
     renderer = new THREE.WebGLRenderer();
     renderer.setPixelRatio(devicePixelRatio);
-    renderer.setSize(1200, 600);
-    document.getElementById("container").appendChild(renderer.domElement);
+    renderer.setSize(containerWidth, containerHeight);
+    container.appendChild(renderer.domElement);
     console.log("Рендерер инициализирован")
 }
 
@@ -384,7 +296,9 @@ function createMaterial(img, stencil) {
 function onWindowResize() {
     camera.aspect = innerWidth / innerHeight;
     camera.updateProjectionMatrix();
-    renderer.setSize(1200, 600);
+    var containerWidth = $(".photo-container").width();
+    var containerHeight = $(".photo-container").height();
+    renderer.setSize(containerWidth, containerHeight);
 }
 
 //Для прокрутки камеры
